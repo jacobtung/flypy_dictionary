@@ -75,3 +75,4 @@ python .\torime.py
 ## 其他
 
 最后我把自己生成的gboard可以直接导入使用的压缩包放release，第一版，可能会有错误。
+补充Rime支持，词库文件放release里，标签打第二版吧。
