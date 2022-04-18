@@ -1,6 +1,6 @@
 # flypy_dictionary
 
->全拼转小鹤双拼Python脚本
+>全拼转小鹤双拼Python脚本+Rime词库脚本
 
 ## 为什么有这个Repo？
 
@@ -16,6 +16,8 @@
 4. `finals2.txt`：没声母的那些字韵母对照表。
 5. `initials.txt`：声母对照表。
 6. `todouble.py`：主要完成生成词典的脚本。
+7. `dictionary_rime.txt`：添加支持生成Rime的词库啦。
+8. `torime.py`：生成rime词库的小脚本。
 
 ## todoble.py使用
 
@@ -34,6 +36,15 @@ python .\todouble.py
 最后生成的`dictionary_new.txt`要用`notepad++`转换一下格式：
 
 `编辑 > 文档格式转换 > 转换为UNIX（LF）`
+
+添加Rime词库支持了~
+```cmd
+cd \path\to\this\fold
+python .\torime.py
+```
+
+生成的`dictionary_rime.txt`可以直接使用：
+`右键单击Rime图标 > 用户词典管理 > 点击<luna_pinyin> > 点击<导入文本码表>`
 
 ## 一些链接
 
