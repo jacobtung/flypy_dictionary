@@ -1,0 +1,1 @@
+# jacob's gboard flypy dict based on sogou dict
