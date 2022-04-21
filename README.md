@@ -15,9 +15,10 @@
 3. `finals1.txt`：常规韵母对照表。
 4. `finals2.txt`：没声母的那些字韵母对照表。
 5. `initials.txt`：声母对照表。
-6. `todouble.py`：主要完成生成词典的脚本。
-7. `dictionary_rime.txt`：添加支持生成Rime的词库啦。
-8. `torime.py`：生成rime词库的小脚本。
+6. `dictionary_new.txt`：新生成的gboard词库文件（半成品）。
+7. `todouble.py`：主要完成生成词典的脚本。
+8. `dictionary_rime.txt`：添加支持生成Rime的词库啦。
+9. `torime.py`：生成rime词库的小脚本。
 
 ## todoble.py使用
 
